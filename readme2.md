@@ -95,22 +95,22 @@ docker-compose up --build
 
 - **Đăng nhập/đăng ký Admin:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/adminlogin.png' />
 </div>
 
 - **Chọn giờ xem:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/chon_gio_xem.png' />
 </div>
 
 - **Chọn ghế:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/chon_ghe.png' />
 </div>
 
 - **Thanh toán:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/thanh_toan.png' />
 </div>
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
