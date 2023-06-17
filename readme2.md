@@ -93,7 +93,7 @@ docker-compose up --build
 	<img src='demo-images/usersignup.png' />
 </div>
 
-- **Đăng nhập:**
+- **Đăng nhập Admin:**
 <div align='center'>
 	<img src='demo-images/adminlogin.png' />
 </div>
