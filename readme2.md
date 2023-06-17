@@ -67,7 +67,7 @@ docker-compose up --build
 ### **B. Chức năng của Admin:**
 - Thêm, xóa, sữa dữ liệu liên quan đến các suất chiếu phim như: phim chiếu, lịch chiếu, phòng chiếu, số lượng ghế và lưu lại thông tin thanh toán.
 
-### **8. Bảo mật:**
+### **9. Bảo mật:**
 - JWT (JSON Web Token): Phân quyền truy cập và xác thực user.
 
 ### **8. Demo:**
@@ -127,5 +127,6 @@ docker-compose up --build
 <div align='center'>
 	<img src='demo-images/swagger_api.jpg' />
 </div>
+
 ---
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
