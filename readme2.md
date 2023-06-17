@@ -2,14 +2,17 @@
 ## **Tên dự án:**
 - Website quản lý bán vé xem phim PenguTicket.
 
+
 ## **Giới thiệu:**
 - Xây dựng website quản lý bán vé xem phim với các tính năng chính: tìm kiếm phim, đặt vé, chọn suất chiếu và thanh toán.
+
 
 ## **Thành viên nhóm:**
 1. *Phạm Phúc Đức - 20520162 - ducdottoan2002*
 2. *Nguyễn Hoàng Phúc - 20520277 - hoangfphucs*
 3. *Nguyễn Đức Tấn - 20520751 - FloRRenn*
 4. *Nguyễn Nhật Hiếu Trung - 20520830 - nnhieutrung*
+
 
 ## **Công nghệ:**
 - **Database: MySQL 8.0.32**
@@ -30,6 +33,7 @@
 	- Nginx: Dựng server cho các service trong docker.
 	- Sandbox của VNPay: phát triển và kiểm thử các tính năng, giao diện và tích hợp của các ứng dụng thanh toán của VNPAY mà không ảnh hưởng đến môi trường sản phẩm thực tế.
 
+
 ## **Cài đặt:**
 - docker-compose up --build
 
@@ -43,6 +47,7 @@
 	- Dùng để kiểm tra, gỡ lỗi các yêu cầu HTTP đến API và nhận lại các phản hồi từ API.
 - Website cho Database (PHPMyAdmin): 127.0.0.1:9782 
 	- Dùng để Quản lý cơ sở dữ liệu(thêm, xóa, sửa các bảng), Sao lưu dữ liệu, Quản lý người dùng và quyền truy cập.
+
 
 ## **Chức năng của trang web:**
 ### **#Chức năng của User:**
@@ -65,7 +70,9 @@
 ### **#Bảo mật:**
 - JWT (JSON Web Token): Phân quyền truy cập và xác thực user.
 
+
 ## **REST API:**
 - Xem chi tiết tại http://127.0.0.1:9595/swagger-ui/index.html
+
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
