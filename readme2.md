@@ -105,12 +105,12 @@ docker-compose up --build
 
 - **Chọn ghế:**
 <div align='center'>
-	<img src='demo-images/chon_ghe.png' />
+	<img src='demo-images/chon_vi_tri.png' />
 </div>
 
 - **Thanh toán:**
 <div align='center'>
-	<img src='demo-images/thanh_toan.png' />
+	<img src='demo-images/thanh_toan.jpg' />
 </div>
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
