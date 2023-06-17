@@ -93,7 +93,7 @@ docker-compose up --build
 	<img src='demo-images/usersignup.png' />
 </div>
 
-- **Đăng nhập/đăng ký Admin:**
+- **Đăng nhập:**
 <div align='center'>
 	<img src='demo-images/adminlogin.png' />
 </div>
@@ -113,4 +113,5 @@ docker-compose up --build
 	<img src='demo-images/thanh_toan.jpg' />
 </div>
 
+---
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
