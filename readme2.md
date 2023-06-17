@@ -72,7 +72,9 @@ docker-compose up --build
 
 ### **8. Demo:**
 - **Trang chủ**
-![Trangchu](demo-images/trang chủ.png)
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
 - **Danh mục phim**
 - 
 - **Chi tiết phim**
