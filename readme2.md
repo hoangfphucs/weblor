@@ -73,22 +73,24 @@ docker-compose up --build
 ### **8. Demo:**
 - **Trang chủ:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/trang_chu.png' />
 </div>
 
 - **Danh mục phim:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/danh_muc.png' />
 </div>
 
 - **Chi tiết phim:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/chi_tiet_phim.png' />
 </div>
 
 - **Đăng nhập/đăng ký User:**
 <div align='center'>
-	<img src='demo-images/trang chủ.png' />
+	<img src='demo-images/userlogin.png' />
+	<br>
+	<img src='demo-images/usersignup.png' />
 </div>
 
 - **Đăng nhập/đăng ký Admin:**
