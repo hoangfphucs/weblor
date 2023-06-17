@@ -98,6 +98,16 @@ docker-compose up --build
 	<img src='demo-images/adminlogin.png' />
 </div>
 
+- **Admin quản lý tài khoản:**
+<div align='center'>
+	<img src='demo-images/admin_quan_ly_tk.png' />
+</div>
+
+- **Admin thêm suất chiếu:**
+<div align='center'>
+	<img src='demo-images/admin_change_show.png' />
+</div>
+
 - **Chọn giờ xem:**
 <div align='center'>
 	<img src='demo-images/chon_gio_xem.png' />
@@ -113,5 +123,9 @@ docker-compose up --build
 	<img src='demo-images/thanh_toan.jpg' />
 </div>
 
+- **Swagger Api-doc:**
+<div align='center'>
+	<img src='demo-images/swagger_api.jpg' />
+</div>
 ---
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
