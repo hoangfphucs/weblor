@@ -5,11 +5,6 @@ Website bán vé xem phim `PenguTicket`.
 Xây dựng website quản lý bán vé xem phim với các tính năng chính: tìm kiếm phim, đặt vé, chọn suất chiếu và thanh toán.
 
 ## **3. Thành viên nhóm:**
-1. *Phạm Phúc Đức - 20520162 - ducdottoan2002*
-2. *Nguyễn Hoàng Phúc - 20520277 - hoangfphucs*
-3. *Nguyễn Đức Tấn - 20520751 - FloRRenn*
-4. *Nguyễn Nhật Hiếu Trung - 20520830 - nnhieutrung*
-
 | Sinh Viên               | MSSV        | Github Username   |
 | :----------------------- |:-----------:| -----------------:|
 | Phạm Phúc Đức           | 20520162    | [ducdottoan2002](https://github.com/ducdottoan2002)|
@@ -76,5 +71,20 @@ docker-compose up --build
 - JWT (JSON Web Token): Phân quyền truy cập và xác thực user.
 
 ### **8. Demo:**
+- **Trang chủ**
+![Trangchu](demo-images/trang chủ.png)
+- **Danh mục phim**
+- 
+- **Chi tiết phim**
+- 
+- **Đăng nhập/đăng ký User**
+- 
+- **Đăng nhập/đăng ký Admin**
+- 
+- **Chọn giờ xem**
+- 
+- **Chọn ghế**
+- 
+- **Thanh toán**
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
