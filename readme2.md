@@ -1,20 +1,23 @@
----
-## **Tên dự án:**
-- Website quản lý bán vé xem phim PenguTicket.
+## **1. Tên dự án:**
+Website bán vé xem phim `PenguTicket`.
 
+## **2. Giới thiệu:**
+Xây dựng website quản lý bán vé xem phim với các tính năng chính: tìm kiếm phim, đặt vé, chọn suất chiếu và thanh toán.
 
-## **Giới thiệu:**
-- Xây dựng website quản lý bán vé xem phim với các tính năng chính: tìm kiếm phim, đặt vé, chọn suất chiếu và thanh toán.
-
-
-## **Thành viên nhóm:**
+## **3. Thành viên nhóm:**
 1. *Phạm Phúc Đức - 20520162 - ducdottoan2002*
 2. *Nguyễn Hoàng Phúc - 20520277 - hoangfphucs*
 3. *Nguyễn Đức Tấn - 20520751 - FloRRenn*
 4. *Nguyễn Nhật Hiếu Trung - 20520830 - nnhieutrung*
 
+| Sinh Viên               | MSSV        | Github Username   |
+| :----------------------- |:-----------:| -----------------:|
+| Phạm Phúc Đức           | 20520162    | [ducdottoan2002](https://github.com/ducdottoan2002)|
+| Nguyễn Hoàng Phúc       | 20520277    | [hoangfphucs](https://github.com/hoangfphucs)|
+| Nguyễn Đức Tấn          | 20520751    | [FloRRenn](https://github.com/FloRRenn)|
+| Nguyễn Nhật Hiếu Trung  | 20520830    | [nnhieutrung](https://github.com/nnhieutrung)|
 
-## **Công nghệ:**
+## **4. Công nghệ:**
 - **Database: MySQL 8.0.32**
 
 - **Backend: Restful API**
@@ -30,27 +33,29 @@
 
 - **Khác:**
 	- Docker: Cho phép triển khai project nhanh chóng trên các máy tính khác nhau.
-	- Nginx: Dựng server cho các service trong docker.
-	- Sandbox của VNPay: phát triển và kiểm thử các tính năng, giao diện và tích hợp của các ứng dụng thanh toán của VNPAY mà không ảnh hưởng đến môi trường sản phẩm thực tế.
+	- Nginx: Dựng server cho các web service trong docker.
+	- Sandbox của VNPay: Tích hợp ứng dụng thanh toán của VNPAY trong việc đặt vé.
 
+## **5. Cài đặt:**
+Tại thư mục mẹ, gõ lệnh dưới để chạy project
+```shell
+docker-compose up --build
+```
 
-## **Cài đặt:**
-- docker-compose up --build
-
-## **Sử dụng:**
+## **6. Sử dụng:**
 ### **Các Website:**
-- Website chính: 127.0.0.1:8080 
-	- Giúp người dùng tìm kiếm phim, thông tin về các phim đang chiếu(tên phim, poster, thể loại, thời lượng).
-- Website cho Admin: 127.0.0.1:34524 
-	- Giúp cho admin quản lý dữ về liệu suất chiếu phim như:Thêm, xóa, sửa phim chiếu, lịch chiếu, phòng chiếu, số lượng ghế và lưu lại một số thông tin thanh toán. 
-- Website cho API: 127.0.0.1:9782
-	- Dùng để kiểm tra, gỡ lỗi các yêu cầu HTTP đến API và nhận lại các phản hồi từ API.
-- Website cho Database (PHPMyAdmin): 127.0.0.1:9782 
-	- Dùng để Quản lý cơ sở dữ liệu(thêm, xóa, sửa các bảng), Sao lưu dữ liệu, Quản lý người dùng và quyền truy cập.
+- Website chính (Front-end): http://localhost:80
+	- Hiển thị nội dung liên quan đến phim và cho phép đặt/thanh toán vé.
+- Website Admin (Front-end): http://localhost:81
+	- Trang admin cho phép quản lý các nội dung trên website chính và các user. Yêu cầu tài khoản có quyền `admin` để đăng nhập. 
+- Website cho API (Back-end): http://localhost:9595
+	- Xử lý các request được gửi từ front-end.
+    - Xem chi tiết tại http://localhost:9595/swagger-ui/index.html
+- Website cho Database (Back-end): http://localhost:32346
+	- Hiển thị trực quan database của web (dùng [PHPMyAdmin](https://www.phpmyadmin.net/)).
 
-
-## **Chức năng của trang web:**
-### **#Chức năng của User:**
+## **7. Chức năng của trang web:**
+### **A. Chức năng của User:**
 - Đăng ký
 	+ Xác thực tài khoản qua email
 - Đăng nhập
@@ -64,15 +69,12 @@
 	+ Thanh toán (VNPAY, QR Code, Thẻ Nội Địa, Thể Quốc Tế) i
     	* Gửi vé điện tử và chi tiết thanh toán qua email khi thanh toán thành công.
 
-### **#Chức năng của Admin:**
+### **B. Chức năng của Admin:**
 - Thêm, xóa, sữa dữ liệu liên quan đến các suất chiếu phim như: phim chiếu, lịch chiếu, phòng chiếu, số lượng ghế và lưu lại thông tin thanh toán.
 
-### **#Bảo mật:**
+### **8. Bảo mật:**
 - JWT (JSON Web Token): Phân quyền truy cập và xác thực user.
 
-
-## **REST API:**
-- Xem chi tiết tại http://127.0.0.1:9595/swagger-ui/index.html
-
+### **8. Demo:**
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
