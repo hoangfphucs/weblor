@@ -71,22 +71,44 @@ docker-compose up --build
 - JWT (JSON Web Token): Phân quyền truy cập và xác thực user.
 
 ### **8. Demo:**
-- **Trang chủ**
+- **Trang chủ:**
 <div align='center'>
 	<img src='demo-images/trang chủ.png' />
 </div>
-- **Danh mục phim**
-- 
-- **Chi tiết phim**
-- 
-- **Đăng nhập/đăng ký User**
-- 
-- **Đăng nhập/đăng ký Admin**
-- 
-- **Chọn giờ xem**
-- 
-- **Chọn ghế**
-- 
-- **Thanh toán**
+
+- **Danh mục phim:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Chi tiết phim:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Đăng nhập/đăng ký User:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Đăng nhập/đăng ký Admin:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Chọn giờ xem:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Chọn ghế:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
+
+- **Thanh toán:**
+<div align='center'>
+	<img src='demo-images/trang chủ.png' />
+</div>
 
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
