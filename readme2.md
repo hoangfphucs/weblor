@@ -145,7 +145,7 @@ docker-compose up --build
 
 - **Sơ đồ database:**
 <div align='center'>
-	<img src='demo-images/so_do_database.png' />
+	<img src='demo-images/so_do_databases.png' />
 </div>
 ---
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
