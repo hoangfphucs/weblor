@@ -128,5 +128,24 @@ docker-compose up --build
 	<img src='demo-images/swagger_api.jpg' />
 </div>
 
+- **Sơ đồ mô hình hoạt động của web User:**
+<div align='center'>
+	<img src='demo-images/so_do_web.jpg' />
+</div>
+
+- **Sơ đồ mô hình hoạt động của web Admin:**
+<div align='center'>
+	<img src='demo-images/so_do_web_admin.jpg' />
+</div>
+
+- **Mối quan hệ giữ các trang web:**
+<div align='center'>
+	<img src='demo-images/moi_quan_he_cac_web.PNG' />
+</div>
+
+- **Sơ đồ database:**
+<div align='center'>
+	<img src='demo-images/so_do_database.png' />
+</div>
 ---
 © Group Pengu - NT213.N21.ANTT, University of Information Technology - UIT
